@@ -21,7 +21,7 @@ const [update, setUpdate] = useState(false)
 
 useEffect(()=>{
 
-fetch('http://afternoon-coast-98402.herokuapp.com/api/users/',
+fetch('https://afternoon-coast-98402.herokuapp.com/api/users/',
 	{
 		headers: {
 
@@ -42,7 +42,7 @@ fetch('http://afternoon-coast-98402.herokuapp.com/api/users/',
 
 		
 
-fetch("http://afternoon-coast-98402.herokuapp.com/api/entries/"    ,{
+fetch("https://afternoon-coast-98402.herokuapp.com/api/entries/"    ,{
 
 			method: 'GET',
 			headers: {

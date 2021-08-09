@@ -33,7 +33,7 @@ e.preventDefault()
     // console.log(`${user.userId} ${categoryName} ${categoryType}`)
 //--
 
-fetch(`http://afternoon-coast-98402.herokuapp.com/api/categories/`,{
+fetch(`https://afternoon-coast-98402.herokuapp.com/api/categories/`,{
 
 			method: 'POST',
 			headers: {

@@ -33,7 +33,7 @@ const EditCategory =function(props){
     useEffect(()=>{
         // console.log("user is "+user.userId)
 
-        fetch("http://afternoon-coast-98402.herokuapp.com/api/categories/"
+        fetch("https://afternoon-coast-98402.herokuapp.com/api/categories/"
             ,{
 
                 method: 'GET',
@@ -87,7 +87,7 @@ const EditCategory =function(props){
     //             type: entryHolder[0].type
                
     //         })
-    fetch(`http://afternoon-coast-98402.herokuapp.com/api/entries/${props.location.state._id}`,{
+    fetch(`https://afternoon-coast-98402.herokuapp.com/api/entries/${props.location.state._id}`,{
 
 			method: 'PUT',
 			headers: {

@@ -41,7 +41,7 @@ export default function Login(){
 		e.preventDefault()
 
 
-		fetch('http://afternoon-coast-98402.herokuapp.com/api/users/login',{
+		fetch('https://afternoon-coast-98402.herokuapp.com/api/users/login',{
 
 			method: 'POST',
 			headers: {
@@ -70,7 +70,7 @@ export default function Login(){
 				/*localStorage is a way for us to store data in our browsers. It can be found in our application tab in the dev tools.*/
 				localStorage.setItem('token',data.accessToken)
 
-				fetch('http://afternoon-coast-98402.herokuapp.com/api/users/',{
+				fetch('https://afternoon-coast-98402.herokuapp.com/api/users/',{
 
 					headers: {
 

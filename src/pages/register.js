@@ -167,7 +167,7 @@ export default function Register(){
 
 		*/
 
-		fetch('http://afternoon-coast-98402.herokuapp.com/api/users/',{
+		fetch('https://afternoon-coast-98402.herokuapp.com/api/users/',{
 
 			method: "POST",
 			headers: {

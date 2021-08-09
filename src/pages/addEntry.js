@@ -28,7 +28,7 @@ useEffect(()=>{
 
 useEffect(()=>{
 
-	fetch("http://afternoon-coast-98402.herokuapp.com/api/categories/",{
+	fetch("https://afternoon-coast-98402.herokuapp.com/api/categories/",{
 		method: 'GET',
 		headers: {'Authorization': `Bearer ${localStorage.getItem('token')}`		
 	}})
@@ -66,7 +66,7 @@ function addEntry(e) {
 			id: user.userId
 		})
 	e.preventDefault()
-	fetch("http://afternoon-coast-98402.herokuapp.com/api/entries/",{
+	fetch("https://afternoon-coast-98402.herokuapp.com/api/entries/",{
 		method: "POST",
 		
 		headers:{
