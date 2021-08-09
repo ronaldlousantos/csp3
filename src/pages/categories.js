@@ -36,9 +36,10 @@ useEffect(()=>{
         // console.log("hey" +data)
         let categoryTemp = (data==null)? [] : data;
         // console.log(categoryTemp)
-       let tempArray = [];
+       let tempArray = [0];
+       tempArray.pop();
         if((typeof categoryTemp)==Object){
-            tempArray =categoryTemp.filter(category =>{
+       tempArray =categoryTemp.filter(category =>{
         //     //enable this later
             return category.type ==="income";
         })}

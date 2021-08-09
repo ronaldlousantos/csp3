@@ -85,7 +85,7 @@ fetch("http://afternoon-coast-98402.herokuapp.com/api/entries/"    ,{
     })
 
 })
-})
+},[])
 
 useEffect(()=>{
 	if(update === true &&(allExpenses.length>0)){
@@ -112,7 +112,7 @@ useEffect(()=>{
         setBalanceFinal(balance)
  	
 
-},[expenseTotal, savingsTotal])
+},[expenseTotal, savingsTotal,allSavings, allExpenses])
 
 
 
@@ -159,7 +159,9 @@ console.log("Hello")
 							}
 						</h4>
 					</div>
+
 				</Container>
+				<br />
 				</Container>
 			</>	
 

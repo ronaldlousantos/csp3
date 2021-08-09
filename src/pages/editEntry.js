@@ -14,10 +14,10 @@ import {Button, Container, Col, Form} from 'react-bootstrap'
 
 const EditCategory =function(props){
 
-    const [categoryName] = useState('' )
+    // const [categoryName] = useState('' )
     // const [update, setUpdate] = useState("")
     
-    const [categoryType] = useState( 'expense' )
+    // const [categoryType] = useState( 'expense' )
 
     // console.log(props.location.state.userId)
     // let catName =props.location.state.name || null;

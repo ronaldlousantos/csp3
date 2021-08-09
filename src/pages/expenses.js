@@ -1,5 +1,5 @@
 import React, {useState, useContext, useEffect } from 'react';
-import Banner from '../components/Banner';
+// import Banner from '../components/Banner';
 // import Category from '../components/Category';
 import {Table ,Container} from 'react-bootstrap'
 import UserContext from '../userContext'
@@ -97,6 +97,7 @@ return(
               
               
         </Table>
+        <br />
         </Container>
         </>
         :

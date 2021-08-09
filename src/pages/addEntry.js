@@ -43,7 +43,8 @@ useEffect(()=>{
 
             let tempArray = [];
             
-            if(typeof categoryTemp!=null){
+            if(typeof true){
+            // if(typeof categoryTemp!=null){
             // if(true){
                  tempArray=expenseTemp.filter(expense =>{
                 //enable this later

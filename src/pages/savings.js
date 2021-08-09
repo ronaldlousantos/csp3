@@ -95,6 +95,7 @@ return(
               {categoryRows}
                 </tbody>
         </Table>
+        <br />
         </Container>
         </>
         :

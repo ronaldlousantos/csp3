@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 /*import react-bootstrap components here*/
-import {Container, Col} from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 
 /*import react-router-dom components*/
 import {BrowserRouter as Router} from 'react-router-dom'
